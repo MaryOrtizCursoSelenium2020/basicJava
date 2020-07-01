@@ -1,0 +1,5 @@
+contador_crearCancion es cero
+while (contador_crearCancion menor que 5){
+	CrearNewCancion();
+	suma uno a contador_crearCancion
+}

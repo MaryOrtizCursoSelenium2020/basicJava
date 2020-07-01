@@ -1,0 +1,23 @@
+Escenario: Login exitoso a Songs By Sinatra
+Precondition: * Navegador abierto
+              * Contar con la url
+              * contar con credenciales validas
+
+Paso:
+1. Ingresar la url en el navegador
+    1. Verificar los elementos de la pagina:
+	    - Esperar a que aparezca la imagen de Sinatra
+	    - Esperar a que aparezca el link de login
+3. Dar clic en link login
+	1. Esperar a que aparezca formulario:
+        - Campo UserName
+	    - Campo Password
+	    - Boton Login
+4. Capturar formulario
+    1. Ingresar usuario en el campo de usuario
+    2. Ingresar contraseña en el campo de password
+5. Dar clic en el boton login
+    1. Verificar los elementos de la pagina:
+	    - Esperar a que aparezca mensaje "You are now logged in as frank"
+        - Esperar a que se visualice el titulo "Songs" y link "Crear a new somgs"
+        - Esperar a que se visualice el link de LogOut

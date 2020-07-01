@@ -1,0 +1,32 @@
+Escenario: Create a new song
+Precondition: * Haberse logeado correctamente
+              * Contar con la informacion de la cancion
+
+Pasos:
+1. Ingresar a la pestaña "Songs"
+    1. Verificar los elemementos de la pestaña:
+        - Esperar a que aparezca el titulo Song
+        - Esperar a que se visualice el link "Create a new song"
+        - Esperar a que aparezca el listado de canciones existentes
+        - Esperar a que se visualice el link logout
+2. Dar clic en link "Create a new song"
+    1. Esperar a que aparezca el titulo "Add a New Song"
+    2. Esperar a que aparezca formulario:
+        - Campo Title
+        - Campo Length
+        - Campo Date(mm/dd/yyyy)
+        - Campo Lirycs
+        - Boton Save Song
+3. Campturar formulario
+    1. Ingresar titulo de cancion en el campo Title
+    2. Ingresar duracion de cancion en el campo Length
+    3. Ingresar fecha de lanzamiento en el campo Date(mm/dd/yyyy)
+    4. Ingresar la letra de cacion en el campo Lyrics
+4. Dar clic en boton "Save Song"
+    1. Verificar los elemementos de la pagina:
+	    - Esperar a que aparezca mensaje "Song successfully added"
+        - Esperar a que aparezca el titulo y detalle de cancion
+        - Esperar a que aparezca imagen de "Like"
+        - Esperar a que se visualice el link "back to songs index"
+        - Esperar a que se visualice el link "edit this song"
+        - Esperar a que se visualice el boton "delete this song"

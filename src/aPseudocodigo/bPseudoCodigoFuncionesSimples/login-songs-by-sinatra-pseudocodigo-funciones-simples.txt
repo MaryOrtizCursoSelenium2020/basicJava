@@ -1,0 +1,35 @@
+Funciones Simples:
+
+loginExitoso(){
+    navegarSitioweb()
+	ingresarLogIn()
+	capturarCampos()
+	AccesoExitoso()
+}
+
+navegarSitioweb(){
+    Abrir navegador
+    Ingresar Url
+}
+
+cargarPagina(){
+    Esperar a que aparezca la imagen de Sinatra
+    Esperar a que se visualice y habilitado  el link de login
+}
+
+ingresarLogIn(){
+	Esperar se cargen los campos UserName y Password
+	Se muestra visible y habilitado el boton Log In
+}
+
+capturarCampos(){
+	Ingresar Username
+	Ingresar Password
+	Dar clic en el boton Log In
+}
+
+AccesoExitoso(){
+	Esperar que se muestre mensaje de confirmacion
+	Se muestra visible y habilitado el link Crear a new song
+	Se muestra visible y habilitado el link log Out
+}

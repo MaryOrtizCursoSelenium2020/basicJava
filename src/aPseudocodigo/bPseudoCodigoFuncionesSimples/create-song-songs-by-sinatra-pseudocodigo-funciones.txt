@@ -1,0 +1,43 @@
+Funciones Simples
+
+newsongExitoso(){
+    ingresarSongs()
+    crearSong()
+    campturarSong()
+    guardarSong()
+}
+
+ingresarSongs(){
+    Verificar los elemementos de la pestaña:
+        - Esperar a que aparezca el titulo Song
+        - Esperar a que se visualice el link "Create a new song"
+        - Esperar a que aparezca el listado de canciones existentes
+        - Esperar a que se visualice el link logout
+}
+
+crearSong(){
+    Esperar a que aparezca el titulo "Add a New Song"
+    Esperar a que aparezca formulario:
+        - Campo Title
+        - Campo Length
+        - Campo Date(mm/dd/yyyy)
+        - Campo Lirycs
+        - Boton Save Song
+}
+
+campturarSong(){
+    Ingresar titulo de cancion en el campo Title
+    Ingresar duracion de cancion en el campo Length
+    Ingresar fecha de lanzamiento en el campo Date(mm/dd/yyyy)
+    Ingresar la letra de cacion en el campo Lyrics
+}
+
+guardarSong(){
+    Verificar los elemementos de la pagina:
+	    - Esperar a que aparezca mensaje "Song successfully added"
+        - Esperar a que aparezca el titulo y detalle de cancion
+        - Esperar a que aparezca imagen de "Like"
+        - Esperar a que se visualice el link "back to songs index"
+        - Esperar a que se visualice el link "edit this song"
+        - Esperar a que se visualice el boton "delete this song"
+}

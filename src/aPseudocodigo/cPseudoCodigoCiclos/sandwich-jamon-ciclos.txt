@@ -1,0 +1,11 @@
+contador_sandwichJamon es cero
+while (contador_sandwichJamon menor que 5){
+	hacerSandwichJamon();
+	suma uno a contador_sandwichJamon
+}
+
+contador_sandwichBonoia es cero
+while (contador_sandwichBolonia menor que 10){
+	hacerSandwichBolonia();
+	suma uno a contador_sandwichBolonia
+}
